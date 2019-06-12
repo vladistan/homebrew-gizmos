@@ -1,6 +1,15 @@
 ## Homebrew formulae for Arm Mbed
 
-[Homebrew](https://brew.sh) is a package manager for macOS. You can use it to install [the Arm GCC toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm):
+[Homebrew](https://brew.sh) is a package manager for macOS. You can use it to install
+various gizmos that are not (yet) available through official channels
+
+
+This my personal repository, but feel free to tap it if you need something.
+
+
+
+
+[the Arm GCC toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm):
 ```sh
 brew tap ArmMbed/homebrew-formulae
 brew install arm-none-eabi-gcc
