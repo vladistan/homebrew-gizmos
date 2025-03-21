@@ -6,18 +6,17 @@ class Wiki2beamer < Formula
 
   desc "Create latex beamer code from an easy, wiki-like syntax"
   homepage 'https://github.com/wiki2beamer/wiki2beamer'
-  version '0.10.0-rc1'
-  sha256 "e2bd80489116b9ca08ab5d78badfef4bc75565aadafa73a5b6eae5249b4c4d09"
-
-  url 'https://github.com/vladistan/wiki2beamer/archive/release-0.10.0-rc1.tar.gz'
+  version '0.11.1rc1'
+  
+  url "https://github.com/vladistan/wiki2beamer/releases/download/release-0.11.1-pre4/wiki2beamer-0.11.1rc1-py3-none-any.whl"
+  sha256 "78e7e78b4da1a90454c1b32f5f930bb1d60a71614e03b05ddc5c7fbcaa09c51f"
 
   depends_on "python"
 
   def install
     venv = virtualenv_create(libexec, "python3")
-    system libexec/"bin/pip", "uninstall", "-y", "wiki2beamer"
-    system libexec/"bin/pip", "install", "-U", "-e", "code"
-    venv.pip_install_and_link "#{buildpath}/code"
+    venv.pip_install_and_link resources
+    venv.pip_install "#{cached_download}"
     bin.install_symlink libexec/"bin/wiki2beamer"
   end
 end
