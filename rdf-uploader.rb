@@ -3,8 +3,8 @@ class RdfUploader < Formula
 
   desc "Upload RDF files to a SPARQL endpoint"
   homepage "https://github.com/vladistan/rdf-uploader"
-  url "https://files.pythonhosted.org/packages/ec/2e/ff1b4c5b36f1776fc438ba5959c7f240eb4d9d772b5297c5d702a279b8f4/rdf_uploader-0.15.0.tar.gz"
-  sha256 "28d39bb09a4beab26e0b6c1ec8a8c6b161d80bcbf7419a7c963761b398c3e8a7"
+  url "https://files.pythonhosted.org/packages/57/4c/561130c227b7368a8b0bee277907d18005a180203b1cfc499559221e6865/rdf_uploader-0.18.2.tar.gz"
+  sha256 "6091cb7fd6f2980e3e6b6dd85e1439ad2591af245531bfb42fb732e11435247f"
   license ""
 
   depends_on "python@3.13"
@@ -14,8 +14,8 @@ class RdfUploader < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
-    sha256 "3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651"
+    url "https://files.pythonhosted.org/packages/e8/9e/c05b3920a3b7d20d3d3310465f50348e5b3694f4f88c6daf736eef3024c4/certifi-2025.4.26.tar.gz"
+    sha256 "0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6"
   end
 
   resource "click" do
@@ -24,13 +24,13 @@ class RdfUploader < Formula
   end
 
   resource "h11" do
-    url "https://files.pythonhosted.org/packages/f5/38/3af3d3633a34a3316095b39c8e8fb4853a28a536e55d347bd8d8e9a14b03/h11-0.14.0.tar.gz"
-    sha256 "8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d"
+    url "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz"
+    sha256 "4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1"
   end
 
   resource "httpcore" do
-    url "https://files.pythonhosted.org/packages/9f/45/ad3e1b4d448f22c0cff4f5692f5ed0666658578e358b8d58a19846048059/httpcore-1.0.8.tar.gz"
-    sha256 "86e94505ed24ea06514883fd44d2bc02d90e77e7979c8eb71b90f41d364a1bad"
+    url "https://files.pythonhosted.org/packages/06/94/82699a10bca87a5556c9c59b5963f2d039dbd239f25bc2a63907a05a14cb/httpcore-1.0.9.tar.gz"
+    sha256 "6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8"
   end
 
   resource "httpx" do
@@ -74,8 +74,8 @@ class RdfUploader < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/8b/6f/3991f0f1c7fcb2df31aef28e0594d8d54b05393a0e4e34c65e475c2a5d41/typer-0.15.2.tar.gz"
-    sha256 "ab2fab47533a813c49fe1f16b1a370fd5819099c00b119e0633df65f22144ba5"
+    url "https://files.pythonhosted.org/packages/98/1a/5f36851f439884bcfe8539f6a20ff7516e7b60f319bbaf69a90dc35cc2eb/typer-0.15.3.tar.gz"
+    sha256 "818873625d0569653438316567861899f7e9972f2e6e0c16dab608345ced713c"
   end
 
   resource "typing-extensions" do
