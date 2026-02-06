@@ -3,8 +3,8 @@ class SparqlCli < Formula
 
   desc "CLI tool for querying SPARQL endpoints"
   homepage "https://github.com/vlad/sparql-cli"
-  url "https://files.pythonhosted.org/packages/6e/40/23cd9b405112d4d16289a6888d573d54fc944888cb23a8b6cf4912212c40/sparql_cli-0.1.1.tar.gz"
-  sha256 "a298696f27cf7e807323fab8059134d25f5a5ecc0d8d5623ef914b6063188ccb"
+  url "https://files.pythonhosted.org/packages/19/78/ea5878e8a77a689c42d5de50897aa6024146938753582b567b01eaff87bc/sparql_cli-0.1.2.tar.gz"
+  sha256 "54cf074f71b318aa3cbb32238253cd4d55629c52fe9187211614ec4b8199ef0e"
   license "MIT"
 
   depends_on "pydantic"
@@ -66,8 +66,8 @@ class SparqlCli < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/6f/9f/094bbb6be5cf218ab6712c6528310687f3d3fe8818249fcfe1d74192f7c5/sentry_sdk-2.51.0.tar.gz"
-    sha256 "b89d64577075fd8c13088bc3609a2ce77a154e5beb8cba7cc16560b0539df4f7"
+    url "https://files.pythonhosted.org/packages/59/eb/1b497650eb564701f9a7b8a95c51b2abe9347ed2c0b290ba78f027ebe4ea/sentry_sdk-2.52.0.tar.gz"
+    sha256 "fa0bec872cfec0302970b2996825723d67390cdd5f0229fb9efed93bd5384899"
   end
 
   resource "shellingham" do
