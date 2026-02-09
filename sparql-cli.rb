@@ -3,8 +3,8 @@ class SparqlCli < Formula
 
   desc "CLI tool for querying SPARQL endpoints"
   homepage "https://github.com/vlad/sparql-cli"
-  url "https://files.pythonhosted.org/packages/19/78/ea5878e8a77a689c42d5de50897aa6024146938753582b567b01eaff87bc/sparql_cli-0.1.2.tar.gz"
-  sha256 "54cf074f71b318aa3cbb32238253cd4d55629c52fe9187211614ec4b8199ef0e"
+  url "https://files.pythonhosted.org/packages/5c/28/245a73088e56d550b9516631140e2a548f3ab810df9764d244475586ff92/sparql_cli-0.1.3.tar.gz"
+  sha256 "7483e48bd2b1745bbdd8296ad69771c437234fd748a35ceb007df05146ef690e"
   license "MIT"
 
   depends_on "pydantic"
