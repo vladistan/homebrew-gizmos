@@ -3,8 +3,8 @@ class TsdbTool < Formula
 
   desc "PostgreSQL query and administration CLI tool with TimescaleDB support"
   homepage "https://github.com/vladistan/sql-tool"
-  url "https://files.pythonhosted.org/packages/df/a6/c107b592ec1cbd0668d627670e2dc0d5b1ab42c07215bb6c1131b58efef3/tsdb_tool-0.1.0.tar.gz"
-  sha256 "a378348a852e7d4aa5328414e484f76a4b3981ce329710e23b15d5a22c60fbe2"
+  url "https://files.pythonhosted.org/packages/51/db/6a5555ccc2f03ff756cbcd5d6b32fd5d8a4c89aff349ca140e9b7a829428/tsdb_tool-0.1.1.tar.gz"
+  sha256 "ee48672db484ec428dd053b49cf40bbde88d78c6871a9d26a30241b042811386"
   license "MIT"
 
   depends_on "libpq"
