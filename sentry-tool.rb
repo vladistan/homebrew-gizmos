@@ -3,12 +3,17 @@ class SentryTool < Formula
 
   desc "CLI tool for querying and managing Sentry issues"
   homepage "https://github.com/vladistan/sentry-tool"
-  url "https://files.pythonhosted.org/packages/e3/58/47d403997d38f9e788da5fae291523f905fbc4f92b251e93f6a80cba1287/sentry_tool-0.1.0.tar.gz"
-  sha256 "8b4393bd55c524d3e4cd1fe09fcf689aa1f551ecb2a559e08bb06e2d4a8fcc24"
+  url "https://files.pythonhosted.org/packages/87/90/f0caff9f8b7dfae800bb6a1d24f20c4bbb0ee5bc86e4cc0a8a5b57138429/sentry_tool-0.1.2.tar.gz"
+  sha256 "a91b2c528b844356a17b75d13387f4de150c5c41527cff5a7e0030aca24aefb9"
   license "MIT"
 
   depends_on "pydantic"
   depends_on "python@3.13"
+
+  resource "annotated-doc" do
+    url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
+    sha256 "fbcda96e87e9c92ad167c2e53839e57503ecfda18804ea28102353485033faa4"
+  end
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/e0/2d/a891ca51311197f6ad14a7ef42e2399f36cf2f9bd44752b3dc4eab60fdc5/certifi-2026.1.4.tar.gz"
@@ -41,8 +46,8 @@ class SentryTool < Formula
   end
 
   resource "pydantic-settings" do
-    url "https://files.pythonhosted.org/packages/43/4b/ac7e0aae12027748076d72a8764ff1c9d82ca75a7a52622e67ed3f765c54/pydantic_settings-2.12.0.tar.gz"
-    sha256 "005538ef951e3c2a68e1c08b292b5f2e71490def8589d4221b95dab00dafcfd0"
+    url "https://files.pythonhosted.org/packages/96/a1/ae859ffac5a3338a66b74c5e29e244fd3a3cc483c89feaf9f56c39898d75/pydantic_settings-2.13.0.tar.gz"
+    sha256 "95d875514610e8595672800a5c40b073e99e4aae467fa7c8f9c263061ea2e1fe"
   end
 
   resource "Pygments" do
@@ -86,8 +91,8 @@ class SentryTool < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/36/bf/8825b5929afd84d0dabd606c67cd57b8388cb3ec385f7ef19c5cc2202069/typer-0.21.1.tar.gz"
-    sha256 "ea835607cd752343b6b2b7ce676893e5a0324082268b48f27aa058bdb7d2145d"
+    url "https://files.pythonhosted.org/packages/fd/07/b822e1b307d40e263e8253d2384cf98c51aa2368cc7ba9a07e523a1d964b/typer-0.23.1.tar.gz"
+    sha256 "2070374e4d31c83e7b61362fd859aa683576432fd5b026b060ad6b4cd3b86134"
   end
 
   resource "urllib3" do
