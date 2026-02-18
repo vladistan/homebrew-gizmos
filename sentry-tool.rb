@@ -3,8 +3,8 @@ class SentryTool < Formula
 
   desc "CLI tool for querying and managing Sentry issues"
   homepage "https://github.com/vladistan/sentry-tool"
-  url "https://files.pythonhosted.org/packages/87/90/f0caff9f8b7dfae800bb6a1d24f20c4bbb0ee5bc86e4cc0a8a5b57138429/sentry_tool-0.1.2.tar.gz"
-  sha256 "a91b2c528b844356a17b75d13387f4de150c5c41527cff5a7e0030aca24aefb9"
+  url "https://files.pythonhosted.org/packages/98/04/65bc26c9d201dc4c9caefa3ba75c82ed4dcca8d952bc7f91e9c4f2f2dfd0/sentry_tool-0.1.3.tar.gz"
+  sha256 "699a85373863e5a0dd2e3d3b09539af909c1ec6cc85e4d48f508ef763c50ba5f"
   license "MIT"
 
   depends_on "pydantic"
@@ -71,8 +71,8 @@ class SentryTool < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/59/eb/1b497650eb564701f9a7b8a95c51b2abe9347ed2c0b290ba78f027ebe4ea/sentry_sdk-2.52.0.tar.gz"
-    sha256 "fa0bec872cfec0302970b2996825723d67390cdd5f0229fb9efed93bd5384899"
+    url "https://files.pythonhosted.org/packages/d3/06/66c8b705179bc54087845f28fd1b72f83751b6e9a195628e2e9af9926505/sentry_sdk-2.53.0.tar.gz"
+    sha256 "6520ef2c4acd823f28efc55e43eb6ce2e6d9f954a95a3aa96b6fd14871e92b77"
   end
 
   resource "shellingham" do
@@ -91,8 +91,8 @@ class SentryTool < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/fd/07/b822e1b307d40e263e8253d2384cf98c51aa2368cc7ba9a07e523a1d964b/typer-0.23.1.tar.gz"
-    sha256 "2070374e4d31c83e7b61362fd859aa683576432fd5b026b060ad6b4cd3b86134"
+    url "https://files.pythonhosted.org/packages/5a/b6/3e681d3b6bb22647509bdbfdd18055d5adc0dce5c5585359fa46ff805fdc/typer-0.24.0.tar.gz"
+    sha256 "f9373dc4eff901350694f519f783c29b6d7a110fc0dcc11b1d7e353b85ca6504"
   end
 
   resource "urllib3" do
