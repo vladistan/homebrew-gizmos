@@ -3,8 +3,8 @@ class TsdbTool < Formula
 
   desc "PostgreSQL query and administration CLI tool with TimescaleDB support"
   homepage "https://github.com/vladistan/sql-tool"
-  url "https://files.pythonhosted.org/packages/ab/c5/59c197bdd588193eba5a37a73941604d5fdeaa8a1e5236b154c073c7642f/tsdb_tool-0.1.2.tar.gz"
-  sha256 "c547357c27b7854538b40d1a3651c63a3000a82877ef595ff80765a8811afa45"
+  url "https://files.pythonhosted.org/packages/a0/7e/1e2f83486507a4698ae43c3e472806886f96621aa63776cfcccb6f712577/tsdb_tool-0.1.3.tar.gz"
+  sha256 "4fc60fe36474a56c66c23e62a585aedf83fbe128dc72b3db56ade68709e8de02"
   license "MIT"
 
   depends_on "libpq"
@@ -52,8 +52,8 @@ class TsdbTool < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/d3/06/66c8b705179bc54087845f28fd1b72f83751b6e9a195628e2e9af9926505/sentry_sdk-2.53.0.tar.gz"
-    sha256 "6520ef2c4acd823f28efc55e43eb6ce2e6d9f954a95a3aa96b6fd14871e92b77"
+    url "https://files.pythonhosted.org/packages/c8/e9/2e3a46c304e7fa21eaa70612f60354e32699c7102eb961f67448e222ad7c/sentry_sdk-2.54.0.tar.gz"
+    sha256 "2620c2575128d009b11b20f7feb81e4e4e8ae08ec1d36cbc845705060b45cc1b"
   end
 
   resource "shellingham" do
