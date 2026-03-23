@@ -1,10 +1,10 @@
-class SparqlCli < Formula
+class SparqlTool < Formula
   include Language::Python::Virtualenv
 
   desc "CLI tool for querying SPARQL endpoints"
-  homepage "https://github.com/vlad/sparql-cli"
-  url "https://files.pythonhosted.org/packages/3f/45/a6e69579a485e93b22dc25e05f51234c20ea4050641f81bcd8d47dff4eab/sparql_cli-0.1.4.tar.gz"
-  sha256 "bf660362f61c555818c17e4e97179692383515150ee165a0ac51ac2ebc88dc3b"
+  homepage "https://github.com/vladistan/sparql-tool"
+  url "https://files.pythonhosted.org/packages/57/74/a730f5b9c5a58a64a0a9703423a9609f89a23aabe415fcb0f30af259f58d/sparql_tool-0.2.0.tar.gz"
+  sha256 "940d40f6986ec0472bd7843e1ca82ebd75f82c26f01bd22665cd7900e5d3e483"
   license "MIT"
 
   depends_on "pydantic"
@@ -21,8 +21,8 @@ class SparqlCli < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/e0/2d/a891ca51311197f6ad14a7ef42e2399f36cf2f9bd44752b3dc4eab60fdc5/certifi-2026.1.4.tar.gz"
-    sha256 "ac726dd470482006e014ad384921ed6438c457018f4b3d204aea4281258b2120"
+    url "https://files.pythonhosted.org/packages/af/2d/7bf41579a8986e348fa033a31cdd0e4121114f6bce2457e8876010b092dd/certifi-2026.2.25.tar.gz"
+    sha256 "e887ab5cee78ea814d3472169153c2d12cd43b14bd03329a39a9c6e2e80bfba7"
   end
 
   resource "click" do
@@ -71,8 +71,8 @@ class SparqlCli < Formula
   end
 
   resource "sentry-sdk" do
-    url "https://files.pythonhosted.org/packages/d3/06/66c8b705179bc54087845f28fd1b72f83751b6e9a195628e2e9af9926505/sentry_sdk-2.53.0.tar.gz"
-    sha256 "6520ef2c4acd823f28efc55e43eb6ce2e6d9f954a95a3aa96b6fd14871e92b77"
+    url "https://files.pythonhosted.org/packages/e9/b8/285293dc60fc198fffc3fcdbc7c6d4e646e0f74e61461c355d40faa64ceb/sentry_sdk-2.55.0.tar.gz"
+    sha256 "3774c4d8820720ca4101548131b9c162f4c9426eb7f4d24aca453012a7470f69"
   end
 
   resource "shellingham" do
@@ -100,6 +100,6 @@ class SparqlCli < Formula
   end
 
   test do
-    system bin/"sparql-cli", "--help"
+    system bin/"sparql-tool", "--help"
   end
 end
