@@ -3,11 +3,26 @@ class RepoSyncKitty < Formula
 
   desc "Git repository synchronization tool for teams"
   homepage "https://github.com/vladistan/repo-sync-kitty"
-  url "https://files.pythonhosted.org/packages/19/35/89a1cde3b42b98eb4a4b6794805d1f57337ce8405d0126286699771ec115/repo_sync_kitty-0.2.4-py3-none-any.whl"
-  sha256 "89a93c8d8bc2fd4b7fea0ac7aa554d4cdf1832d4e8db7d54703970765d9cce0a"
+  url "https://files.pythonhosted.org/packages/b7/f6/55db00b0f8447fdbccdc1771a86cb83c3a940a15206c6a2de53b044fa1bf/repo_sync_kitty-0.2.4.tar.gz"
+  sha256 "b61a4f87993ff6766ecf0ef9a779b7c53f3640cd161c3425241a7e9135d52c2f"
   license "MIT"
   depends_on "pydantic"
   depends_on "python@3.13"
+
+  resource "hatchling" do
+    url "https://files.pythonhosted.org/packages/d3/8a/44032265776062a89171285ede55a0bdaadc8ac00f27f0512a71a9e3e1c8/hatchling-1.29.0-py3-none-any.whl"
+    sha256 "50af9343281f34785fab12da82e445ed987a6efb34fd8c2fc0f6e6630dbcc1b0"
+  end
+
+  resource "pathspec" do
+    url "https://files.pythonhosted.org/packages/ef/3c/2c197d226f9ea224a9ab8d197933f9da0ae0aac5b6e0f884e2b8d9c8e9f7/pathspec-1.0.4-py3-none-any.whl"
+    sha256 "fb6ae2fd4e7c921a165808a552060e722767cfa526f99ca5156ed2ce45a5c723"
+  end
+
+  resource "trove-classifiers" do
+    url "https://files.pythonhosted.org/packages/bb/4a/2e5583e544bc437d5e8e54b47db87430df9031b29b48d17f26d129fa60c0/trove_classifiers-2026.1.14.14-py3-none-any.whl"
+    sha256 "1f9553927f18d0513d8e5ff80ab8980b8202ce37ecae0e3274ed2ef11880e74d"
+  end
 
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl"
@@ -115,7 +130,7 @@ class RepoSyncKitty < Formula
   end
 
   def install
-    virtualenv_install_with_resources
+    virtualenv_install_with_resources(build_isolation: false)
   end
 
   test do
