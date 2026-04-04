@@ -130,7 +130,9 @@ class RepoSyncKitty < Formula
   end
 
   def install
-    virtualenv_install_with_resources(build_isolation: false)
+    venv = virtualenv_create(libexec, "python3.13")
+    venv.pip_install resources
+    venv.pip_install_and_link(buildpath, build_isolation: false)
   end
 
   test do
