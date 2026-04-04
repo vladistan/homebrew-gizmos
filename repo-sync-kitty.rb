@@ -12,6 +12,11 @@ class RepoSyncKitty < Formula
   depends_on "pydantic"
   depends_on "python@3.13"
 
+  resource "pdm-backend" do
+    url "https://files.pythonhosted.org/packages/7c/7e/6d441c8739a30820ec59517a88326789c201ae43a344b2ffb02fb2702d8e/pdm_backend-2.4.8.tar.gz"
+    sha256 "d8ef85d2c4306ee67195412d701fae9983e84ec6574598e26798ae26b7b3c7e0"
+  end
+
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
     sha256 "fbcda96e87e9c92ad167c2e53839e57503ecfda18804ea28102353485033faa4"
@@ -114,7 +119,7 @@ class RepoSyncKitty < Formula
 
   resource "urllib3" do
     url "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz"
-    sha256 "1b62b6884944a57dbe321509ac94fd4d3b307075e0c2eae991ac71ee15ad38ed"
+    sha256 "1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed"
   end
 
   def install
