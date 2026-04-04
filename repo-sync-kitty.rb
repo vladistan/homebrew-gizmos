@@ -3,12 +3,9 @@ class RepoSyncKitty < Formula
 
   desc "Git repository synchronization tool for teams"
   homepage "https://github.com/vladistan/repo-sync-kitty"
-  url "https://files.pythonhosted.org/packages/b7/f6/55db00b0f8447fdbccdc1771a86cb83c3a940a15206c6a2de53b044fa1bf/repo_sync_kitty-0.2.4.tar.gz"
-  sha256 "b61a4f87993ff6766ecf0ef9a779b7c53f3640cd161c3425241a7e9135d52c2f"
+  url "https://files.pythonhosted.org/packages/19/35/89a1cde3b42b98eb4a4b6794805d1f57337ce8405d0126286699771ec115/repo_sync_kitty-0.2.4-py3-none-any.whl"
+  sha256 "89a93c8d8bc2fd4b7fea0ac7aa554d4cdf1832d4e8db7d54703970765d9cce0a"
   license "MIT"
-
-  depends_on "maturin" => :build
-  depends_on "rust" => :build
   depends_on "pydantic"
   depends_on "python@3.13"
 
