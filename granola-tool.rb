@@ -3,8 +3,8 @@ class GranolaTool < Formula
 
   desc "CLI tool for querying Granola meeting recordings and exporting to Obsidian"
   homepage "https://github.com/vladistan/granola-tool"
-  url "https://files.pythonhosted.org/packages/02/fd/ea8c1df9b2b61c3ce9ce552b85f76cd686435595af6e8ad08cf7d52bdc99/granola_tool-0.1.0.tar.gz"
-  sha256 "c78dd3682d59933f9d085ea3cd1a9979d2a8f051bd0d1cca2ff3fe2f58d93e3f"
+  url "https://files.pythonhosted.org/packages/5c/23/e2d71f14c8db98162dedd7bb04412006bf8161b39fc172a197d8b07660cf/granola_tool-0.2.0.tar.gz"
+  sha256 "1d6ad07a6496a91163b1d138801f03d733e9fca5702130d68f8c00b3ad27c97e"
   license "MIT"
 
   depends_on "pydantic"
