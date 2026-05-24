@@ -3,8 +3,8 @@ class GranolaTool < Formula
 
   desc "CLI tool for querying Granola meeting recordings and exporting to Obsidian"
   homepage "https://github.com/vladistan/granola-tool"
-  url "https://files.pythonhosted.org/packages/5c/23/e2d71f14c8db98162dedd7bb04412006bf8161b39fc172a197d8b07660cf/granola_tool-0.2.0.tar.gz"
-  sha256 "1d6ad07a6496a91163b1d138801f03d733e9fca5702130d68f8c00b3ad27c97e"
+  url "https://files.pythonhosted.org/packages/04/82/0dcab7cbe7be9b71e7bfb74ef5856f135376eb6021a76f60448326b3244c/granola_tool-0.3.1.tar.gz"
+  sha256 "2c70914cb40eb30e35c6dae6014c87e1efc53d8f91a47a9f13bd1ef1cba5db19"
   license "MIT"
 
   depends_on "pydantic"
@@ -16,13 +16,13 @@ class GranolaTool < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/25/ee/6caf7a40c36a1220410afe15a1cc64993a1f864871f698c0f93acb72842a/certifi-2026.4.22.tar.gz"
-    sha256 "8d455352a37b71bf76a79caa83a3d6c25afee4a385d632127b6afb3963f1c580"
+    url "https://files.pythonhosted.org/packages/f3/ce/ee2ecad540810a79593028e88299baeae54d346cc7a0d94b6199988b89b1/certifi-2026.5.20.tar.gz"
+    sha256 "69dea482ab64caa7b9f6aba1c6bf48bb6a5448d1c0f1b17ab42ad8c763a5344d"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/bb/63/f9e1ea081ce35720d8b92acde70daaedace594dc93b693c869e0d5910718/click-8.3.3.tar.gz"
-    sha256 "398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2"
+    url "https://files.pythonhosted.org/packages/9b/98/518d8e5081007684232226f475082b30087d0f585e8457db087298259f49/click-8.4.1.tar.gz"
+    sha256 "918b5633eddf6b41c32d4f454bf0de810065c74e3f7dbf8ee5452f8be88d3e96"
   end
 
   resource "markdown-it-py" do
