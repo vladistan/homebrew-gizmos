@@ -3,8 +3,8 @@ class InvoiceTool < Formula
 
   desc "Fully-offline Python CLI that generates a sendable USD PDF invoice"
   homepage "https://pypi.org/project/invoice-tool/"
-  url "https://files.pythonhosted.org/packages/45/0a/9174ea8ce9c667573a697c4e653dc119d941d0cab759e554af05f496c3e4/invoice_tool-0.0.1.tar.gz"
-  sha256 "0f575ab2ce265bcd416f7312340c50267625d93b09106c6b8f4c71f61b5bdcb9"
+  url "https://files.pythonhosted.org/packages/2e/54/4fbb0200ebcc628141788eb727ebb829aedf5677b2ea1c7fadb331177dba/invoice_tool-0.0.3.tar.gz"
+  sha256 "d491586e97ce79a9f2e322d66dd9226f218ca47c342790bcabc785f67a239930"
   license "MIT"
 
   depends_on "pillow"
