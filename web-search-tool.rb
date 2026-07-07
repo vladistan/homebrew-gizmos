@@ -3,8 +3,8 @@ class WebSearchTool < Formula
 
   desc "Unified CLI over Tavily, Firecrawl, and SerpAPI web-search/content SDKs"
   homepage "https://github.com/vladistan/web-search-tool"
-  url "https://files.pythonhosted.org/packages/55/bf/967bc8441698c4aa28f8799e87543115b6d825985e56806a111acacbea9c/web_search_tool-0.1.0.tar.gz"
-  sha256 "a7c19dd8eff9f9c4432f17d5a368ddcb07b2c216458c1d231e8a82ccbc4890f4"
+  url "https://files.pythonhosted.org/packages/c4/77/faf85be80a9471a837f43857a6ce3e5e1c0a3b6abab8313ca3e5058e6d98/web_search_tool-0.1.2.tar.gz"
+  sha256 "e6646f541d70d92913420ad608750261e9c3944df10a86a3ab656100c04eb6c7"
   license "MIT"
 
   depends_on "rust" => :build
