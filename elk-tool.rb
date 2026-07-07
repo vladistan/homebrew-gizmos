@@ -3,8 +3,8 @@ class ElkTool < Formula
 
   desc "CLI tool for querying and managing Elasticsearch data"
   homepage "https://github.com/vladistan/elk-cli"
-  url "https://files.pythonhosted.org/packages/a8/d0/c0ae93dc842c4c0e28434efdb7c09ed295deb0ece94f526bc8c16b2a959c/elk_tool-0.1.1.tar.gz"
-  sha256 "562f34401e6e4b251b8567364636d0093f00e3bb8abd83c7cd53814d59a83a33"
+  url "https://files.pythonhosted.org/packages/74/90/bde4fa28537a293b216acc26f32e469280e88a66787b023340b8ff00d703/elk_tool-0.1.2.tar.gz"
+  sha256 "7d64fc161512b0c6e392b2feecddc2d2929ad4ba3696aa61d610379b024e851e"
   license "MIT"
 
   depends_on "pydantic"
