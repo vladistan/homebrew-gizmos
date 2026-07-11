@@ -3,8 +3,8 @@ class ImageCreatorTool < Formula
 
   desc "Multi-provider AI image generation CLI with style presets and platform sizing"
   homepage "https://github.com/vladistan/image-creator-tool"
-  url "https://files.pythonhosted.org/packages/5f/76/4552bb51fd7bcb00a0cb321b60a641a29fdc4cdf9b8a757f5d06846ee27a/image_creator_tool-0.2.0.tar.gz"
-  sha256 "8ac991dda463040d6a5ea56ac2b830b6e3423a33b7245f85e79beee9ca0af6a3"
+  url "https://files.pythonhosted.org/packages/67/18/d6647f99af82b381e143f9b78dcb101a936abaa2bcedc2383b0863ff03a5/image_creator_tool-0.2.1.tar.gz"
+  sha256 "8e40b944f62e91c96e1d2a274a9f82ffbf36e1b975802b0a0db7441ac9a99cf2"
   license "MIT"
 
   depends_on "rust" => :build
