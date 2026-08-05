@@ -3,10 +3,11 @@ class CrystaliaTower < Formula
 
   desc "ATC-style triage tower for agent and human callsigns"
   homepage "https://pypi.org/project/crystalia-tower/"
-  url "https://files.pythonhosted.org/packages/a3/e3/6d70c341877239dd0121f8557a613321324d7284af3f96a96725453c1841/crystalia_tower-0.0.5.tar.gz"
-  sha256 "cf149fccafcac7a66dc56fe4dfb8a8d3e2332968577f1edecf6d25f712915b8f"
+  url "https://files.pythonhosted.org/packages/f5/ac/38fc371b776a4ea3a53a8e31048f903307d3e2eab53b6b3096b435b20b1f/crystalia_tower-0.0.6.tar.gz"
+  sha256 "f0228481641e5bb8fd8232462c9a1e5bbd9738feff2b3098dd3acaa4f0b39ec4"
   license "MIT"
 
+  depends_on "cryptography"
   depends_on "python@3.13"
 
   resource "annotated-doc" do
