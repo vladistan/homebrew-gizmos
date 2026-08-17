@@ -3,8 +3,8 @@ class MarklogicTool < Formula
 
   desc "Read-only CLI for querying MarkLogic Server via REST API"
   homepage "https://github.com/vladistan/marklogic-tool"
-  url "https://files.pythonhosted.org/packages/04/f7/158816dcbf835a584d2b6fa488b9635da68edb1bfd1aab08fa07d608b943/marklogic_tool-0.0.1.tar.gz"
-  sha256 "ceddc97974fccd97d792831f6c3670740f083a1e9752901ba9c85a098113d400"
+  url "https://files.pythonhosted.org/packages/fd/a5/905f2a29929560138d91953b81f6cc975369c541de3ba961732f93490226/marklogic_tool-0.0.3.tar.gz"
+  sha256 "49e8239ca16157c90a2070a649c12964704133156603ecd28b156ded32f37f62"
   license "MIT"
 
   depends_on "pydantic"
@@ -58,6 +58,11 @@ class MarklogicTool < Formula
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
     sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
+  end
+
+  resource "PyYAML" do
+    url "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+    sha256 "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f"
   end
 
   resource "rich" do
