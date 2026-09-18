@@ -25,9 +25,39 @@ class ClickhouseTool < Formula
     sha256 "7c0e18686367e98de49826d8ac9ae951ce0915c172969a5d96b768c9afa9e979"
   end
 
+  resource "backports.zstd" do
+    url "https://files.pythonhosted.org/packages/75/f0/9ba1b05811aa5f5434f69768253129460a5744e1814f359efba39a01ce20/backports_zstd-1.7.0.tar.gz"
+    sha256 "1a967189c1822b6e85a2e550fdfc88a3272c17633ea0a4732dac5911a8034f2b"
+  end
+
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz"
     sha256 "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55"
+  end
+
+  resource "clickhouse-connect" do
+    url "https://files.pythonhosted.org/packages/8a/a2/3ab000f0f7522157cb395f6bcb82f60e42c945b6a005719034a367c2594f/clickhouse_connect-1.8.0.tar.gz"
+    sha256 "3d8592d880301a7fb67ef2d570aefd20d2021569fa72edd05be43104213be358"
+  end
+
+  resource "clickhouse-driver" do
+    url "https://files.pythonhosted.org/packages/da/75/42c6c0f1e0b84213ff096f913ac0ff82037da6f06754bff28685b2d1e23a/clickhouse_driver-0.2.11.tar.gz"
+    sha256 "1bec70343bde9e9a55c2254c5960d34c682ff7d60256589226d96c67a112f95a"
+  end
+
+  resource "lz4" do
+    url "https://files.pythonhosted.org/packages/57/51/f1b86d93029f418033dddf9b9f79c8d2641e7454080478ee2aab5123173e/lz4-4.4.5.tar.gz"
+    sha256 "5f0b9e53c1e82e88c10d7c180069363980136b9d7a8306c4dca4f760d60c39f0"
+  end
+
+  resource "pytz" do
+    url "https://files.pythonhosted.org/packages/fb/48/fb042503b6ca6cd271261dc559fd6432f7d8c713153e9ec5c591af4dfc1c/pytz-2026.3.post1.tar.gz"
+    sha256 "2211d3fcf9a797d3405cac96ac7f61d80e6a644f72a3309607282fe8a2010c5d"
+  end
+
+  resource "tzlocal" do
+    url "https://files.pythonhosted.org/packages/81/5b/879b2f932adfa7a053c360d50bc896c977fa6426109185f7c12ebdd0cb9d/tzlocal-5.4.4.tar.gz"
+    sha256 "8dbb8660838688a7b6ba4fed31d18dedf842afb4d47ca050d6d891c2c15f3be4"
   end
 
   resource "jmespath" do
