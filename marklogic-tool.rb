@@ -3,8 +3,8 @@ class MarklogicTool < Formula
 
   desc "Read-only CLI for querying MarkLogic Server via REST API"
   homepage "https://github.com/vladistan/marklogic-tool"
-  url "https://files.pythonhosted.org/packages/fd/a5/905f2a29929560138d91953b81f6cc975369c541de3ba961732f93490226/marklogic_tool-0.0.3.tar.gz"
-  sha256 "49e8239ca16157c90a2070a649c12964704133156603ecd28b156ded32f37f62"
+  url "https://files.pythonhosted.org/packages/70/98/922e0e3c43a0b67c9e5e2e9b5077fb9f98ab7ea52175b811edac7c6886ee/marklogic_tool-0.0.4.tar.gz"
+  sha256 "f6a2c99b41ab8c7df5d1c14910a6f726f3650281ffb6af84dc63b597938785ac"
   license "MIT"
 
   depends_on "pydantic"
