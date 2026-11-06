@@ -3,8 +3,8 @@ class ClickhouseTool < Formula
 
   desc "ClickHouse query and administration CLI tool for the OTel logs/metrics pilot"
   homepage "https://github.com/vladistan/clickhouse-tool"
-  url "https://files.pythonhosted.org/packages/68/8c/4de48350d009592e794ba92f48a7f5d3784fdcec10afaa5c61c2f4a1a17b/clickhouse_tool-0.1.1.tar.gz"
-  sha256 "64f34a7c5e511935909dfd6aa815b626dc5fa56711d75e2436cb82cacd38f11c"
+  url "https://files.pythonhosted.org/packages/5c/cf/c8462769359067ae72d69dd9f322fea458cbc9475371c0c13befa901652e/clickhouse_tool-0.2.0.tar.gz"
+  sha256 "c703816c977f833fbb98477b39d080cf517e5adfab5c718fe50274b88fdf52a7"
   license "MIT"
 
   depends_on "pydantic"
